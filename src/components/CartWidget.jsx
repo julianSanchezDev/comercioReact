@@ -1,9 +1,8 @@
 import React from 'react'
 
+
 const CartWidget = () => {
 
-  const numeroFijo = 10;
-  
   return (
     
     <div className="flex-none">

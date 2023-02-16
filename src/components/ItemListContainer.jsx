@@ -4,7 +4,11 @@ const ItemListContainer = ({greeting}) => {
 
 
 
-<div></div>
+<div>
+
+        {greeting}
+  
+</div>
 
       
    
