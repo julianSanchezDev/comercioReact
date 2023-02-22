@@ -1,6 +1,4 @@
 import React from 'react'
-
-
 const CartWidget = () => {
 
   return (
@@ -24,8 +22,6 @@ const CartWidget = () => {
       </div>
     </div>
     </div>
-
-
     
   )
 }

@@ -1,0 +1,50 @@
+[
+    {
+       "id":1,
+       "title":"CAMPERA KAPPA 222 BANDA AOCHI",
+       "price":109,
+       "description":"Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+       "category":"campera",
+       "stock":"2",
+       "image":"/camperaKappa2.webp"
+    },
+    {
+       "id":2,
+       "title":"CAMISETA TITULAR BAYERN MUNICH ",
+       "price":46,
+       "description":"Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+       "category":"remera",
+       "stock":"3",
+       "image":"/camisetaBayern.webp"
+    },
+    {
+       "id":3,
+       "title":"BUZO ADIDAS BOCA JUNIORS",
+       "price":55,
+       "description":"Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+       "category":"campera",
+       "stock":"4",
+       "image":"/bocajuniors.webp"
+       
+    },
+    {
+       "id":4,
+       "title":"CAMISETA SELECIION COLOMBIA",
+       "price":30,
+       "description":"Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+       "category":"remera",
+       "stock":"5",
+       "image":"/colombia.webp"
+    },
+    {
+       "id":5,
+       "title":"CAMPERA ROMPEVIENTO ADIDAS BTS DOWNT",
+       "price":337,
+       "description":"Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+       "category":"campera",
+       "stock":"2",
+       "image":"/camperaAdiddas.webp"
+       
+    }
+    
+ ]

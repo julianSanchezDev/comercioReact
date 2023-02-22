@@ -1,37 +1,46 @@
+
+import { Link } from 'react-router-dom'
 import React, { useState } from 'react';
 import CartWidget from './CartWidget'
-import Logo from './Logo';
-
-
-
-
 
 const NavBar = () => {
 
   const [isOpen, setIsOpen] = useState(false);
 
-  
-
-
   return (
-
-  <div className='flex justify-between bg-red-300 w-full h-24' >
-    <div className='pt-5'> <Logo/>
+    <div className="navbar bg-base-100 flex justify-between">
+      <div className="flex-2">
+        
+      <Link to={"/"}><img src="./logomain.svg" alt="" /></Link>
       </div>
-        <div className="dropdown dropdown-hover">
-                  <label tabIndex={0} className="btn m-1">Hover</label>
-                    <ul tabIndex={0} className="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-52">
-                    <li><a>Item 1</a></li>
-                    <li><a>Item 2</a></li>
-                    </ul>
+      <div className="flex-none">
+        <ul className="menu menu-horizontal px-1">
+          <button>
+          <Link to={"/catalogo"}>
+            CATOLOGO
+          </Link>
+          </button>
+
+                  <div className="dropdown">
+          <label tabIndex={0} className="btn m-1">category</label>
+          <ul tabIndex={0} className="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-52">
+
+            <button><Link to= {`/category/${"remera"}`}>remera</Link></button>
+            <button><Link to= {`/category/${"campera"}`}>campera</Link></button>
+          
+          
+          </ul>
         </div>
-      <CartWidget/> 
-
-   
-      
-
+        </ul>
+      </div>
+      <div>
+        <Link to={"/cart"}>
+            <CartWidget/>
+        </Link>
+        
+      </div>
     </div>
-   
+
   )
 }
 

@@ -1,22 +1,25 @@
 import React from 'react'
-import data from './Data.json';
-const ItemList = () => {
+import { useParams } from 'react-router-dom';
+import Item from './Item';
 
-    
-
-  return (
-
+const ItemList = ({productos}) => {
+  const {id} = useParams();
   
+  return (
+   <>
 
-    
-    data.map(function(person) {
-
-        return <p className='bg-red-100'>{person.title}</p>
-        
-      })
-            
-
-    
+   <div className='flex flex-wrap  grid-cols-3 gap-5'> {productos?.map((producto)=> (<Item
+          key={producto.id}
+          id={producto.id}
+          title={producto.title}
+          price={producto.price}
+          description={producto.description}
+          category={producto.category}
+          image = {producto.image}
+          />
+          ))}</div>
+         
+   </>
   )
 }
 
