@@ -5,7 +5,7 @@
        "price":109.95,
        "description":"Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
        "category":"men's clothing",
-       "image":""
+       "image":"/camperaKappa2.webp"
     },
     {
        "id":2,
@@ -13,7 +13,7 @@
        "price":22.3,
        "description":"Slim-fitting style, contrast raglan long sleeve, three-button henley placket, light weight & soft fabric for breathable and comfortable wearing. And Solid stitched shirts with round neck made for durability and a great fit for casual fashion wear and diehard baseball fans. The Henley style round neckline includes a three-button placket.",
        "category":"men's clothing",
-       "image":""
+       "image":"/camisetaBayern.webp"
     },
     {
        "id":3,
@@ -21,11 +21,8 @@
        "price":55.99,
        "description":"great outerwear jackets for Spring/Autumn/Winter, suitable for many occasions, such as working, hiking, camping, mountain/rock climbing, cycling, traveling or other outdoors. Good gift choice for you or your family member. A warm hearted love to Father, husband or son in this thanksgiving or Christmas Day.",
        "category":"men's clothing",
-       "image":"",
-       "rating":{
-          "rate":4.7,
-          "count":500
-       }
+       "image":"/camperaUnion.webp"
+      
     },
     {
        "id":4,
@@ -33,7 +30,7 @@
        "price":15.99,
        "description":"Camiseta hombre en tejido poliéster con tecnología KOMBAT. Slim Fit. Manga corta y cuello redondo. Logotipo de Omini aplicado en el frente derecho.",
        "category":"camisetas",
-       "image":""
+       "image":"/camisetaTigre.webp"
     },
     {
        "id":5,
@@ -41,7 +38,7 @@
        "price":337,
        "description":"From our Legends Collection, the Naga was inspired by the mythical water dragon that protects the ocean's pearl. Wear facing inward to be bestowed with love and abundance, or outward for protection.",
        "category":"camperas",
-       "image":""
+       "image":"/camperaAdiddas.webp"
        
     }
  ]
