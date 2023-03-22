@@ -12,9 +12,17 @@
     "@chakra-ui/icons": "^2.0.17",
     "@chakra-ui/react": "^2.4.9",
     "daisyui": "^2.50.1",
+<<<<<<< HEAD
+    "firebase": "^9.18.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.8.1",
+    "sweetalert2": "^11.7.3"
+=======
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.8.1"
+>>>>>>> c850d7706d86fe399eb917a947e6e3f3508d8c37
   },
   "devDependencies": {
     "@types/react": "^18.0.27",

@@ -2,3 +2,26 @@
 @tailwind components;
 @tailwind utilities;
 
+<<<<<<< HEAD
+
+
+input:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px #3182ce;
+  }
+  
+  mark {
+    background-color: #fff;
+    color: #4a5568;
+    border-radius: 0.25rem;
+    padding: 0.25rem 0.5rem;
+  }
+  
+
+#carroCompras{
+
+    width: 30px;
+    height: 30px;
+}
+=======
+>>>>>>> c850d7706d86fe399eb917a947e6e3f3508d8c37
