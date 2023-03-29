@@ -2,9 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-<<<<<<< HEAD
-
-
 input:focus {
     outline: none;
     box-shadow: 0 0 0 2px #3182ce;
@@ -23,5 +20,3 @@ input:focus {
     width: 30px;
     height: 30px;
 }
-=======
->>>>>>> c850d7706d86fe399eb917a947e6e3f3508d8c37
